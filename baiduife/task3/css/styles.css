@@ -1,0 +1,77 @@
+body {
+	font-family: arial;
+	background-color: rgb(195, 195, 195);
+	margin: 0;
+	padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container{
+	overflow: auto;
+		display:   block;
+}
+
+.logoCls{
+	width: 80px;
+	height: 80px;
+	
+	
+}
+
+
+
+.section{
+	padding: 20px;
+	margin: 40px;
+	background-color: #eee;
+	border-color: #999;
+	
+	display:   block;
+	
+}
+
+#leftDiv {
+	width: 200px;
+	float: left;
+	
+	overflow: hidden;
+	border: 30px;
+	
+}
+
+#teamLogo{
+	float:left;
+	margin: 0px;
+	position:relative
+}
+
+#leftDiv h3{
+	margin-top: 0;
+	position: relative;
+	
+}
+
+
+#centerDiv{
+	margin-left: 250px;
+	margin-right: 170px;
+/*	width: auto;*/
+}
+
+#rightDiv{
+	
+	width: 120px;
+	float: right;
+	height: auto;
+	
+	
+}
+
+
+
+
+
+
