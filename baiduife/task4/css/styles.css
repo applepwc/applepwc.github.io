@@ -1,0 +1,37 @@
+
+#centerBox {
+  background-color: #ccc;
+  width:400px;
+  height: 200px;
+
+  position: absolute;
+  top:50%;
+  left: 50%;
+  
+  transform: translate(-50%, -50%);
+
+
+}
+
+
+#left-top-area{
+  width:50px;
+  height:50px;
+  border-radius:0 0 50px 0;
+  background:#fc0;
+
+  position: absolute;
+
+
+}
+
+
+#right-bottom-area {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px 0 0 0;
+  position: absolute;
+  background-color: #FC0;
+  right: 0;
+  bottom: 0;
+}

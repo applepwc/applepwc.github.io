@@ -1,0 +1,213 @@
+﻿body {
+	font-family: arial;
+	background-color: rgb(195, 195, 195);
+	margin: 0;
+	padding: 0;
+	
+	/*fuck ,this is a ugly fix*/
+	overflow-x:hidden;	
+}
+
+h1 {
+	color: red;
+	display: inline;
+}
+
+h3,
+h5 {
+	color: gray;
+}
+
+header {
+	background-color: rgb(153, 217, 234);
+}
+
+
+
+header nav ul {
+	float: right;
+	list-style-type: desc;
+}
+
+header ul li {
+	display: list-item;
+	font-size: small;
+	float: right;
+	width: 90px;
+	float: left;
+}
+
+#nav4 {
+	color: gray;
+}
+
+header ul li a {
+	text-decoration: none;
+}
+
+header ul {
+	float: right;
+	margin-top: 15px;
+	list-style-type: disc;
+}
+
+nav > a {
+	margin-left: 30px;
+}
+
+section {
+	margin: 15px;
+	padding: 15px;
+	background-color: white;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.picbox {
+	margin: 10px;
+	padding: 10px;
+	border: solid;
+	border-width: thin;
+	display: block;
+	width: 150px;
+	height: 150px;
+	text-align: center;
+
+	display: inline-block;
+}
+
+.innerPic {
+	display: block;
+	width: 150px;
+	height: 100px;
+}
+
+ol {
+	font-weight: bold;
+}
+
+table {
+	/*border:1px solid #000; */
+	width: 100%;
+	border-collapse: collapse;
+}
+
+table,
+th,
+td {
+	border: 1px solid gray;
+}
+
+.tableHeader {
+	background-color: black;
+	color: white;
+	text-align: left;
+}
+
+.tableHeader th {
+	font-weight: bold;
+	font-size: medium;
+}
+
+.tableRow {
+	font-size: small;
+}
+
+.tableTotal {
+	background-color: gray;
+	font-weight: bold;
+	font-size: small;
+}
+
+#sidebar {
+	font-size: medium;
+	font-weight: bold;
+}
+
+blockquote {
+	border-left: 4px solid gray;
+	font-size: 15px;
+	font-style: italic;
+	padding-left: 10px;
+	margin-left: 0px;
+}
+
+#sidebar p {
+	padding-top: 5px;
+}
+
+#content {
+	margin: 0 auto;
+	font-size: small;
+	width: 500px;
+}
+
+form div {
+	margin-top: 10px;
+}
+
+.formleft {
+	width: 120px;
+	text-align: right;
+	display: inline-block;
+}
+
+.formright {
+	display: inline-block;
+	width: 150px;
+	text-align: left;
+	margin-left: 10px;
+}
+
+.anotation {
+	color: gray;
+	margin-left: 135px;
+}
+
+
+
+input[type="radio"] {
+	display: inline-block;
+	width: 19px;
+	height: 19px;
+	margin: -1px 4px 0 0;
+	vertical-align: middle;
+	background-color: #bbb;
+	color: blue;
+	cursor: pointer;
+}
+
+#submitbtn {
+	margin: 20px;
+	color: white;
+	background-color: #04BE02;
+	border-radius: 5px;
+	width: 90%;
+	height: 30px;
+	position: relative;
+	font-size: 18px;
+
+}
+
+footer {
+	background-color: black;
+	color: white;
+	text-align: center;
+	height: 70px;
+	padding-top: 35px;
+
+	
+}
+
+#mainPanle{
+	margin-right: 380px;
+
+}
+
+#rightPanel{
+	float: right;
+	display: inline-block;
+	width: 350px;
+}
